@@ -1,0 +1,47 @@
+			<!-- Photo-Container 5 -->
+			<div>
+				<div>
+					<img src="./images/thumb/Image_5.jpg" alt="">
+					<div>
+						<h3>Click to Enlarge</h3>
+						<p>Sloths!</p>
+					</div>
+				</div>
+			</div>
+			<!--End Photo-Container 5 -->
+			
+			<!-- Photo-Container 6 -->
+			<div>
+				<div>
+				<img src="./images/thumb/Image_6.jpg" alt="">
+					<div>
+						<h3>Click to Enlarge</h3>
+						<p>Sloths!</p>
+					</div>
+				</div>
+			</div>
+			<!--End Photo-Container 6 -->
+			
+			<!-- Photo-Container 7 -->
+			<div>
+				<div>
+				<img src="./images/thumb/Image_7.jpg" alt="">
+					<div>
+						<h3>Click to Enlarge</h3>
+						<p>Sloths!</p>
+					</div>
+				</div>
+			</div>
+			<!--End Photo-Container 7 -->
+			
+			<!-- Photo-Container 8 -->
+			<div>
+				<div>
+				<img src="./images/thumb/Image_8.jpg" alt="">
+					<div>
+						<h3>Click to Enlarge</h3>
+						<p>Sloths!</p>
+					</div>
+				</div>
+			</div>
+			<!--End Photo-Container 8 -->
