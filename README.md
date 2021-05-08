@@ -4,7 +4,7 @@ Instructions:
 
 1. Sign in to your personal GitHub profile.
 
-2. Fork the project found here: https://github.com/the-tech-academy/virtual_dr, (this is The Tech Academy’s GitHub repository), this will give you your own separate version of the repository on your own GitHub account. Make a clone of the project files from your new fork.
+2. Make a clone of the project files from https://github.com/the-tech-academy/virtual_dr, (this is The Tech Academy’s GitHub repository)
 
 3. Click the “Clone or download” button and then the “Open in Desktop” link to open GitHub’s Desktop application.
 
@@ -16,6 +16,6 @@ Instructions:
 
 7. Commit the change to your local repository.
 
-8. Push your local changes to your remote fork by clicking the push to origin button. Then click the "Branch" tab and click "Create Pull Request".
+8. Push your changes by selecting the “New Pull Request” button. Enter in your comment concerning your contribution to the project files. Then click the “Create pull request” button.
 
 9. Inform an Instructor that you have completed this exercise.
