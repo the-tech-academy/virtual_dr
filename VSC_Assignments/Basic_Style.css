@@ -1,0 +1,100 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    color: rgba(8,141,165,1);
+    margin: 100px;
+    text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+/*SELECT ALL SQUARES IN THE ARRAY*/
+
+.container .squares:nth-child(-n+4) {
+    background-image: url("./Images/Icons/icons.png");
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+/*SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY*/
+
+.squares:nth-child(-n+4) p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.5cm;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.0);
+}
+
+/*INDIVIDUALLY SELECT A SQUARE IN THE ARRAY*/
+
+.squares:nth-child(1) {
+    background: pink;
+}
+
+.squares:nth-child(2) {
+    background: skyblue;
+}
+
+.squares:nth-child(3) {
+    background: paleturquoise;
+}
+
+.squares:nth-child(4) {
+    background: coral;
+}
+
+/*HOVER EFFECTS, TRANSLATE & TRANSFORM EFFECTS*/
+
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("./Images/Icons/icons2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
+}
+
+.squares:nth-child(1):hover {
+    background: cornflowerblue;
+}
+
+.squares:nth-child(2):hover {
+    background: rgb(231, 89, 219);
+}
+
+.squares:nth-child(3):hover {
+    background: rgb(233, 77, 77);
+}
+
+.squares:nth-child(4):hover {
+    background: rgb(149, 247, 125);
+}
+
+/* ANIMATION EFFECT*/
+
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url("./Images/Icons/icons.png");
+    }
+    50% {
+        transform: translateY(330px);
+    }
+}
