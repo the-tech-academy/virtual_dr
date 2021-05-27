@@ -61,7 +61,7 @@ body {
     opacity: 0;
      /*While hovered, drop down-menu appears 
     This also avoids a block-level bug*/
-    visibility: hidden;
+    visibility: visible;
 }
 
 .submenu li {
