@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+           
+.Box-1 {
+    margin: 10px;
+    padding: auto;
+    position: relative;
+}
