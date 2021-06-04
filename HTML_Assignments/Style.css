@@ -25,3 +25,13 @@ p {
     padding: auto;
     position: relative;
 }
+
+#borders {
+    width: 600px;
+    height: 300px;
+    padding: 5%;
+    border-style: dotted;
+    border-width: 10px;
+    border: firebrick;
+}
+
