@@ -32,6 +32,6 @@ p {
     padding: 5%;
     border-style: dotted;
     border-width: 10px;
-    border: firebrick;
+    border-color: firebrick;
 }
 
