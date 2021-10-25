@@ -1,4 +1,4 @@
-This is the repository for the HTML & CSS Course drill.
+This is the repository for the HTML & CSS Course drill. 
 
 Instructions:
 
