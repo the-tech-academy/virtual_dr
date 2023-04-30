@@ -12,7 +12,7 @@ Instructions:
 
 5. Navigate into the local directory of the repository you just created to begin editing the HTML file (virtual_dr.html).
 
-6. Change the heading “COMING SOON” to “AVAILABLE.”
+6. Change the heading “AVAILABLE NOW for the following mobile platforms!” to “AVAILABLE.”
 
 7. Commit the change to your local repository.
 
