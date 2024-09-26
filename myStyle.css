@@ -1,0 +1,19 @@
+
+
+.outerBox {
+    width: 60%;
+    background-color: rgb(3, 3, 53);
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.innerBox {
+    height: 250px;
+    border: 4px dashed yellow;
+    border-radius: 15px;
+    line-height: 200px;
+    text-align: center;
+    color: yellow;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
