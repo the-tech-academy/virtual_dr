@@ -1,0 +1,30 @@
+body{
+background-color: #fff;
+
+}
+
+h1{
+color: rgba (8, 141, 165, 1) ;
+margin-left: 100px;
+text-shadow: 1px .5px 4px rgba (0, 0, 0, 0.6) ;
+}
+.container{
+weight=450px;
+height=450;
+background-color=#faebd7;
+border=2px solid black;
+border-radius=5% 5% 5% 5%;
+
+}
+
+.container .squares:nth-child(-n+4) {
+ background-image: url("../Images/icons2.png");
+ color=#fff;
+ float:loft;
+ withh=50px;
+ height=50px;
+ margin=5px;
+ border=1px solid black;
+ border-radius:25%
+ cursor:pointer;
+}
